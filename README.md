@@ -1,4 +1,4 @@
-# utiltyplugin
+# utilityplugin
 Meh, just exists here for CherryMC / Ch3rryMC, made this a repo so ppl could inspect the source.
 
 
