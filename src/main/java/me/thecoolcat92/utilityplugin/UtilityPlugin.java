@@ -1,7 +1,11 @@
+package me.thecoolcat92.utilityplugin;
+
+import me.thecoolcat92.utilityplugin.events.PlayerJoin;
+import me.thecoolcat92.utilityplugin.events.PlayerLeave;
+import org.bukkit.ChatColor;
+import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
-import org.bukkit.event.player.PlayerJoinEvent;
-import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class UtilityPlugin extends JavaPlugin {
@@ -47,11 +51,8 @@ public final class UtilityPlugin extends JavaPlugin {
             }
         }
         return false;
-
-        public void onPlayerJoin(final PlayerJoinEvent e) {
-            Player p  = e.getPlayer();
-            p.getWorld().dropItemNaturally(p.getLocation(), new ItemStack(Material.COW_SPAWN_EGG)); //spawns cow egg ;)
-        }
     }
+}
+
 }
 
