@@ -1,0 +1,14 @@
+name: UtilityPlugin
+version: 1.0-SNAPSHOT
+main: me.thecoolcat92.utilityplugin.UtilityPlugin
+api-version: 1.16
+authors: [ TheCoolCat92 ]
+description: Cat's Utility plugin for Ch3rrymc!
+commands:
+  die:
+    description: Die lmao
+    usage: /<command>
+  rickroll:
+    description: get memed
+    usage: /<command>
+
